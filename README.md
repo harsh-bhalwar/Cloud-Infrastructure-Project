@@ -1,4 +1,4 @@
-# Industrial Training Project: Deployment of a Backend Web Service on Google Cloud Platform
+# Cloud Infrastructre Project: Deployment of a Backend Web Service on Google Cloud Platform
 
 A Node.js and Express.js REST API project that demonstrates end-to-end deployment of a backend web service on Google Cloud Platform (GCP) using industry-standard cloud infrastructure components.
 

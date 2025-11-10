@@ -42,11 +42,11 @@ app.get("/status", (req, res) => {
 app.get("/team", (req, res) => {
       res.status(200).json({
             project_team: [
-                  {name: "Harsh Bhalwar", role: "DevOps Engineer / Developer"},
-                  {name: "Jenkins", role: "CI/CD Automation"},
-                  {name: "Docker", role: "Containerization"},
+                  {name: "Harsh Bhalwar", role: "Backend Engineer / Cloud Deployment"},
+                  {name: "Node.js", role: "Building Backend Application"},
+                  {name: "GCP", role: "Hosting app on GCP VM Instance"},
             ],
-            note: "This project demonstrates automated build, test, and deploy pipelines.",
+            note: "This project demonstrates building a backend app and hosting it on a GCP VM instance for public access using VM external API.",
       });
 });
 
